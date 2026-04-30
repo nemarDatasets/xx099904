@@ -1,48 +1,49 @@
 {
-	"Name": "BNCI 2015-003 P300 dataset",
-	"BIDSVersion": "1.9.0",
-	"HEDVersion": "8.4.0",
-	"DatasetType": "derivative",
-	"License": "CC-BY-NC-ND-4.0",
-	"Authors": [
-		"Martijn Schreuder",
-		"Thomas Rost",
-		"Michael Tangermann"
-	],
-	"Acknowledgements": "Thomas Denck, David List and Larissa Queda for help with experiments. Klaus-Robert M\u00fcller and Benjamin Blankertz for fruitful discussions.",
-	"Funding": [
-		"European ICT Programme Project FP7-224631",
-		"European ICT Programme Project FP7-216886",
-		"Deutsche Forschungsgemeinschaft (DFG MU 987/3-2)",
-		"Bundesministerium fur Bildung und Forschung (BMBF FKZ 01IB001A, 01GQ0850)",
-		"FP7-ICT PASCAL2 Network of Excellence ICT-216886"
-	],
-	"EthicsApprovals": [
-		"Ethics Committee of the Charit\u00e9 University Hospital"
-	],
-	"ReferencesAndLinks": [
-		"10.3389/fnins.2011.00112"
-	],
-	"GeneratedBy": [
-		{
-			"CodeURL": "https://github.com/NeuroTechX/moabb",
-			"Name": "moabb",
-			"Description": "Mother of All BCI Benchmarks",
-			"Version": "1.5.0"
-		}
-	],
-	"SourceDatasets": [
-		{
-			"DOI": "10.1016/j.neulet.2009.06.045"
-		}
-	],
-	"Keywords": [
-		"brain-computer interface",
-		"directional hearing",
-		"auditory event-related potentials",
-		"P300",
-		"N200",
-		"dynamic subtrials"
-	],
-	"PublicationYear": 2011
+  "Name": "BNCI 2015-003 P300 dataset",
+  "BIDSVersion": "1.9.0",
+  "Version": "1.0.1",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-NC-ND-4.0",
+  "Authors": [
+    "Martijn Schreuder",
+    "Thomas Rost",
+    "Michael Tangermann"
+  ],
+  "Acknowledgements": "Thomas Denck, David List and Larissa Queda for help with experiments. Klaus-Robert Müller and Benjamin Blankertz for fruitful discussions.",
+  "Funding": [
+    "European ICT Programme Project FP7-224631",
+    "European ICT Programme Project FP7-216886",
+    "Deutsche Forschungsgemeinschaft (DFG MU 987/3-2)",
+    "Bundesministerium fur Bildung und Forschung (BMBF FKZ 01IB001A, 01GQ0850)",
+    "FP7-ICT PASCAL2 Network of Excellence ICT-216886"
+  ],
+  "EthicsApprovals": [
+    "Ethics Committee of the Charité University Hospital"
+  ],
+  "ReferencesAndLinks": [
+    "10.3389/fnins.2011.00112"
+  ],
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1016/j.neulet.2009.06.045"
+    }
+  ],
+  "Keywords": [
+    "brain-computer interface",
+    "directional hearing",
+    "auditory event-related potentials",
+    "P300",
+    "N200",
+    "dynamic subtrials"
+  ],
+  "PublicationYear": 2011
 }
