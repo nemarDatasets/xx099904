@@ -1,11 +1,51 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
+  "title": "[TEST COPY] BNCI 2015-003 P300 dataset",
+  "description": "An auditory brain-computer interface dataset implementing the AMUSE (Auditory Multi-class Spatial ERP) paradigm for spelling applications. The dataset comprises EEG recordings from 10 healthy subjects performing an auditory oddball task with spatial cues from six speaker locations, achieving online spelling performance up to 1.41 characters per minute. Data include preprocessed EEG signals with event-related potentials (P300, N200) annotated according to HED 8.4.0 standards.",
+  "methods_description": "EEG acquisition at 256 Hz from 8 channels (Fz, Cz, P3, Pz, P4, PO7, Oz, PO8) using Ag/AgCl electrodes with nose reference. Stimuli presented from six speakers at ear height (60° spacing, 65 cm radius) with stimulus onset asynchrony of 175 ms. Online preprocessing included hardware analog band-pass filtering (0.1-250 Hz), low-pass filtering (40 Hz), and downsampling to 100 Hz. Spatio-temporal feature extraction using r2 coefficient with linear discriminant analysis classifier and Ledoit-Wolf shrinkage regularization.",
+  "license": "CC-BY-NC-ND-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Martijn Schreuder": {},
     "Thomas Rost": {},
     "Michael Tangermann": {}
   },
+  "keywords": [
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Event-Related Potentials, P300",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
+    },
+    {
+      "term": "auditory oddball"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "spatial attention"
+    },
+    {
+      "term": "spelling interface"
+    },
+    {
+      "term": "directional hearing"
+    },
+    {
+      "term": "N200"
+    },
+    {
+      "term": "dynamic subtrials"
+    },
+    {
+      "term": "auditory event-related potentials"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1016/j.neulet.2009.06.045",
@@ -23,12 +63,20 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000189",
+      "identifier": "https://github.com/nemarDatasets/xx099904",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://test.nemar.org/dataset/xx099904",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
+    {
+      "funder_name": "FP7-ICT PASCAL2 Network of Excellence ICT-216886"
+    },
     {
       "funder_name": "European Commission",
       "award_number": "FP7-224631"
@@ -48,20 +96,13 @@
     {
       "funder_name": "BMBF",
       "award_number": "01GQ0850"
-    },
-    {
-      "funder_name": "FP7-ICT PASCAL2 Network of Excellence",
-      "award_number": "ICT-216886"
     }
   ],
-  "title": "BNCI 2015-003 P300 dataset",
-  "license": "CC-BY-NC-ND-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "21.7 MB (21 files)"
   ],
@@ -73,45 +114,5 @@
     ".yaml",
     ".yml"
   ],
-  "description": "An auditory brain-computer interface dataset implementing the AMUSE (Auditory Multi-class Spatial ERP) paradigm for spelling applications. The dataset comprises EEG recordings from 10 healthy subjects performing an auditory oddball task with spatial cues from six speaker locations, achieving online spelling performance up to 1.41 characters per minute. Data includes preprocessed EEG signals with event-related potential markers for target and non-target stimuli across two sessions.",
-  "methods_description": "EEG data acquired at 256 Hz from 8 channels (Fz, Cz, P3, Pz, P4, PO7, Oz, PO8) using BrainAmp hardware with Ag/AgCl electrodes referenced to nose. Stimuli presented from six speakers at ear height (60° spacing, 65 cm radius) using unique tone and filtered noise combinations. Preprocessing included hardware analog band-pass filtering (0.1-250 Hz), downsampling to 100 Hz, low-pass filtering at 40 Hz, and baselining using 150 ms pre-stimulus data. Spatio-temporal feature extraction employed r2 coefficient with interval averaging; classification used linear discriminant analysis with Ledoit-Wolf shrinkage regularization. Two sessions per subject: Session 1 with fixed iterations and Session 2 with dynamic stopping method.",
-  "keywords": [
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "P300"
-    },
-    {
-      "term": "Event-Related Potentials, P300",
-      "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
-    },
-    {
-      "term": "auditory oddball"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "spatial attention"
-    },
-    {
-      "term": "speller interface"
-    },
-    {
-      "term": "N200"
-    },
-    {
-      "term": "dynamic subtrials"
-    },
-    {
-      "term": "directional hearing"
-    }
-  ],
-  "source_hash": "882e917403b93c13a2cf3115a6410400a342270b14f1c2dcc55e0c58eb4021cd"
+  "source_hash": "5418871c867f718e0f5eb6e7e33dc1bba2659875c84004446201345b0d603655"
 }
