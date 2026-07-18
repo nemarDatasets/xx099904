@@ -1,5 +1,5 @@
 {
-  "Name": "BNCI 2015-003 P300 dataset",
+  "Name": "[TEST COPY] BNCI 2015-003 P300 dataset",
   "BIDSVersion": "1.9.0",
   "Version": "1.0.1",
   "HEDVersion": "8.4.0",
@@ -45,6 +45,5 @@
     "N200",
     "dynamic subtrials"
   ],
-  "PublicationYear": 2011,
-  "DatasetDOI": "10.82901/nemar.nm000189"
+  "PublicationYear": 2011
 }
